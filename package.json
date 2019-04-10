@@ -1,0 +1,22 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/June3141/my_portfolio.git"
+  },
+  "author": "june3141",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/June3141/my_portfolio/issues"
+  },
+  "homepage": "https://github.com/June3141/my_portfolio#readme",
+  "dependencies": {
+    "create-react-app": "^2.1.8"
+  }
+}
