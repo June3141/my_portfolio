@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/June3141/my_portfolio#readme",
   "dependencies": {
-    "create-react-app": "^3.0.1"
-  }
+    "bootstrap": "^4.3.1",
+    "create-react-app": "^3.0.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {}
 }
