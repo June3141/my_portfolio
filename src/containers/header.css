@@ -1,14 +1,14 @@
-.App {
+.Header {
   text-align: center;
 }
 
-.App-logo {
+.Header-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 20vmin;
   pointer-events: none;
 }
 
-.App-header {
+.Header-display {
   margin: auto;
   padding: 30px;
   background-color: #282c34;
@@ -24,11 +24,11 @@
   color: white;
 }
 
-.App-link {
+.Header-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes Header-logo-spin {
   from {
     transform: rotate(0deg);
   }

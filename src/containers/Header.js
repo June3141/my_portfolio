@@ -4,9 +4,9 @@ import './Header.css';
 
 function Header() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="Header">
+      <header className="Header-display">
+        <img src={logo} className="Header-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
