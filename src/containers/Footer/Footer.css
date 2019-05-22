@@ -1,0 +1,152 @@
+.Footer{
+    text-align: center;
+}
+
+.Footer-display {
+    margin: auto;
+    padding: 30px;
+    background-color: #282c34;
+    height: 200px;
+    min-height: 20vmin;
+    width: 100%;
+    max-width: 1080p;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.btn-social-long-twitter {
+    color: #FFF;/*文字・アイコン色*/
+    border-radius: 7px;/*角丸に*/
+    display: inline-block;
+    height: 50px;/*高さ*/
+    width: 190px;/*幅*/
+    text-align: center;/*中身を中央寄せ*/
+    font-size: 25px;/*文字のサイズ*/
+    line-height: 50px;/*高さと合わせる*/
+    background: #1da1f3;
+    overflow: hidden;/*はみ出た部分を隠す*/
+    text-decoration:none;/*下線は消す*/
+}
+
+.btn-social-long-twitter .fa-twitter {
+    text-shadow: 2px 2px 0px #4287d6;
+    font-size: 30px;
+}
+
+.btn-social-long-twitter span {
+    display:inline-block;
+    transition: .5s;
+}
+
+.btn-social-long-twitter:hover span {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+
+.btn-social-long-facebook {
+    color: #FFF;/*文字・アイコン色*/
+    border-radius: 7px;/*角丸に*/
+    display: inline-block;
+    height: 50px;/*高さ*/
+    width: 190px;/*幅*/
+    text-align: center;/*中身を中央寄せ*/
+    font-size: 25px;/*文字のサイズ*/
+    line-height: 50px;/*高さと合わせる*/
+    background: #4966a0;
+    overflow: hidden;/*はみ出た部分を隠す*/
+    text-decoration:none;/*下線は消す*/
+}
+
+.btn-social-long-facebook .fa-facebook {
+    text-shadow: 2px 2px 1px #224282;
+    font-size: 30px;
+}
+
+.btn-social-long-facebook span {
+    /*テキスト*/
+    display:inline-block;
+    transition: .5s;
+}
+
+.btn-social-long-facebook:hover span {
+    /*ホバーで一周回転*/
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+
+.btn-social-long-insta {
+    /*ボタンの下地*/
+    color: #FFF;/*文字・アイコン色*/
+    border-radius: 7px;/*角丸に*/
+    position: relative;
+    display: inline-block;
+    height: 50px;/*高さ*/
+    width: 190px;/*幅*/
+    text-align: center;/*中身を中央寄せ*/
+    font-size: 25px;/*文字のサイズ*/
+    line-height: 50px;/*高さと合わせる*/
+    background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+    overflow: hidden;/*はみ出た部分を隠す*/
+    text-decoration:none;/*下線は消す*/
+}
+
+.btn-social-long-insta:before {
+    /*グラデーション②*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;/*全体を覆う*/
+    height: 100%;/*全体を覆う*/
+    background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+}
+
+.btn-social-long-insta .fa-instagram {
+    /*アイコン*/
+    font-size: 35px;/*アイコンサイズ*/
+    position: relative;
+    top: 4px;/*アイコン位置の微調整*/
+}
+
+.btn-social-long-insta span {
+    /*テキスト*/
+    display:inline-block;
+    position: relative;
+    transition: .5s}
+
+.btn-social-long-insta:hover span {
+    /*ホバーで一周回転*/
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+
+.page {
+    padding: 8px;
+    min-height: 360px;
+}
+
+#page-01{
+    background: #555;
+    color:#FFF;
+}
+
+#branding{
+    width: 60%; /*横幅指定*/
+    margin-left: 20%; /*左端から20%右側に動かす*/
+    background-color: #313131; /*背景色の指定*/
+    overflow: hidden; /*おまじない*/
+}
+
+#branding p{
+    color: #fff; /*文字色の変更*/
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 10px; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-left: 3%; /*文字の左側に余白をあける*/
+}
