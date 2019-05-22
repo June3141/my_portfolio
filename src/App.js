@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import './App.css';
 import Header from './containers/Header/Header';
+import Main from './containers/Main/Main';
 import Footer from './containers/Footer/Footer';
+
 
 const NotFound = () => {
   return(
@@ -14,7 +16,8 @@ class App extends Component{
     return (
       <div className="App">
       <Header />
-      <Footer />>
+      <Main />
+      <Footer />
       </div>
     );
   }
