@@ -1,16 +1,18 @@
-.Body {
+.Main {
     text-align: center;
 }
 
-.Body-display {
+.Main-display {
     margin: auto;
     margin-bottom: auto;
     padding: 30px;
+    position: relative;
+    height: auto;
     min-height: 20vmin;
     width: 100%;
-    position: absolute;
-    top: 0;
+    max-width: 1080px;
     display: block;
+    overflow: hidden;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -18,15 +20,8 @@
     color: black;
 }
 
-.Body-link {
+.Main-link {
     color: #61dafb;
-}
-
-.Main{
-    margin: auto;
-    max-width: 1080px;
-    min-height: 100vh;
-    padding: 30px;
 }
 
 .btn-social-long-twitter {

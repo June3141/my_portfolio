@@ -1,10 +1,10 @@
 import React from 'react';
-import './Body.css';
+import './Main.css';
 
-function Header() {
+function Main() {
   return (
-    <div className="Body">
-      <body className="Body-display">
+    <div className="Main">
+        <main className="Main-display">
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,9 +16,9 @@ function Header() {
         >
           Learn React
         </a>
-      </body>
+        </main>
     </div>
   );
 }
 
-export default Header;
+export default Main;
