@@ -1,5 +1,7 @@
-.Footer{
+.Footer {
     text-align: center;
+    background-color: #282c34;
+    width: 100vw;
 }
 
 .Footer-display {
@@ -7,7 +9,6 @@
     margin-top: auto;
     margin-bottom: 0;
     padding: 30px;
-    background-color: #282c34;
     height: 200px;
     min-height: 20vmin;
     width: 100%;
@@ -24,17 +25,17 @@
 }
 
 .btn-social-long-twitter {
-    color: #FFF;/*文字・アイコン色*/
-    border-radius: 7px;/*角丸に*/
+    color: #fff; /*文字・アイコン色*/
+    border-radius: 7px; /*角丸に*/
     display: inline-block;
-    height: 50px;/*高さ*/
-    width: 190px;/*幅*/
-    text-align: center;/*中身を中央寄せ*/
-    font-size: 25px;/*文字のサイズ*/
-    line-height: 50px;/*高さと合わせる*/
+    height: 50px; /*高さ*/
+    width: 190px; /*幅*/
+    text-align: center; /*中身を中央寄せ*/
+    font-size: 25px; /*文字のサイズ*/
+    line-height: 50px; /*高さと合わせる*/
     background: #1da1f3;
-    overflow: hidden;/*はみ出た部分を隠す*/
-    text-decoration:none;/*下線は消す*/
+    overflow: hidden; /*はみ出た部分を隠す*/
+    text-decoration: none; /*下線は消す*/
 }
 
 .btn-social-long-twitter .fa-twitter {
@@ -43,8 +44,8 @@
 }
 
 .btn-social-long-twitter span {
-    display:inline-block;
-    transition: .5s;
+    display: inline-block;
+    transition: 0.5s;
 }
 
 .btn-social-long-twitter:hover span {
@@ -53,17 +54,17 @@
 }
 
 .btn-social-long-facebook {
-    color: #FFF;/*文字・アイコン色*/
-    border-radius: 7px;/*角丸に*/
+    color: #fff; /*文字・アイコン色*/
+    border-radius: 7px; /*角丸に*/
     display: inline-block;
-    height: 50px;/*高さ*/
-    width: 190px;/*幅*/
-    text-align: center;/*中身を中央寄せ*/
-    font-size: 25px;/*文字のサイズ*/
-    line-height: 50px;/*高さと合わせる*/
+    height: 50px; /*高さ*/
+    width: 190px; /*幅*/
+    text-align: center; /*中身を中央寄せ*/
+    font-size: 25px; /*文字のサイズ*/
+    line-height: 50px; /*高さと合わせる*/
     background: #4966a0;
-    overflow: hidden;/*はみ出た部分を隠す*/
-    text-decoration:none;/*下線は消す*/
+    overflow: hidden; /*はみ出た部分を隠す*/
+    text-decoration: none; /*下線は消す*/
 }
 
 .btn-social-long-facebook .fa-facebook {
@@ -73,8 +74,8 @@
 
 .btn-social-long-facebook span {
     /*テキスト*/
-    display:inline-block;
-    transition: .5s;
+    display: inline-block;
+    transition: 0.5s;
 }
 
 .btn-social-long-facebook:hover span {
@@ -85,43 +86,50 @@
 
 .btn-social-long-insta {
     /*ボタンの下地*/
-    color: #FFF;/*文字・アイコン色*/
-    border-radius: 7px;/*角丸に*/
+    color: #fff; /*文字・アイコン色*/
+    border-radius: 7px; /*角丸に*/
     position: relative;
     display: inline-block;
-    height: 50px;/*高さ*/
-    width: 190px;/*幅*/
-    text-align: center;/*中身を中央寄せ*/
-    font-size: 25px;/*文字のサイズ*/
-    line-height: 50px;/*高さと合わせる*/
-    background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
-    overflow: hidden;/*はみ出た部分を隠す*/
-    text-decoration:none;/*下線は消す*/
+    height: 50px; /*高さ*/
+    width: 190px; /*幅*/
+    text-align: center; /*中身を中央寄せ*/
+    font-size: 25px; /*文字のサイズ*/
+    line-height: 50px; /*高さと合わせる*/
+    background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat; /*グラデーション①*/
+    overflow: hidden; /*はみ出た部分を隠す*/
+    text-decoration: none; /*下線は消す*/
 }
 
 .btn-social-long-insta:before {
     /*グラデーション②*/
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;/*全体を覆う*/
-    height: 100%;/*全体を覆う*/
-    background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+    width: 100%; /*全体を覆う*/
+    height: 100%; /*全体を覆う*/
+    background: linear-gradient(
+            15deg,
+            #ffdb2c,
+            rgb(249, 118, 76) 25%,
+            rgba(255, 77, 64, 0) 50%
+        )
+        no-repeat;
 }
 
 .btn-social-long-insta .fa-instagram {
     /*アイコン*/
-    font-size: 35px;/*アイコンサイズ*/
+    font-size: 35px; /*アイコンサイズ*/
     position: relative;
-    top: 4px;/*アイコン位置の微調整*/
+    top: 4px; /*アイコン位置の微調整*/
 }
 
 .btn-social-long-insta span {
     /*テキスト*/
-    display:inline-block;
+    display: inline-block;
     position: relative;
-    transition: .5s}
+    transition: 0.5s;
+}
 
 .btn-social-long-insta:hover span {
     /*ホバーで一周回転*/
@@ -134,19 +142,19 @@
     min-height: 360px;
 }
 
-#page-01{
+#page-01 {
     background: #555;
-    color:#FFF;
+    color: #fff;
 }
 
-#branding{
+#branding {
     width: 60%; /*横幅指定*/
     margin-left: 20%; /*左端から20%右側に動かす*/
     background-color: #313131; /*背景色の指定*/
     overflow: hidden; /*おまじない*/
 }
 
-#branding p{
+#branding p {
     color: #fff; /*文字色の変更*/
     font-size: 120%; /*フォントサイズの調整*/
     letter-spacing: 10px; /*文字と文字の間隔をあける*/
