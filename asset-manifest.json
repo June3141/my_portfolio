@@ -1,16 +1,32 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.7c4c3a22.chunk.css",
-    "main.js": "/my_portfolio/static/js/main.06f9034a.chunk.js",
-    "main.js.map": "/my_portfolio/static/js/main.06f9034a.chunk.js.map",
-    "runtime~main.js": "/my_portfolio/static/js/runtime~main.bc1dbe82.js",
-    "runtime~main.js.map": "/my_portfolio/static/js/runtime~main.bc1dbe82.js.map",
-    "static/js/2.6efc73d3.chunk.js": "/my_portfolio/static/js/2.6efc73d3.chunk.js",
-    "static/js/2.6efc73d3.chunk.js.map": "/my_portfolio/static/js/2.6efc73d3.chunk.js.map",
-    "index.html": "/my_portfolio/index.html",
-    "precache-manifest.ed96fb05fdfdeddad20e2a1dbec1685c.js": "/my_portfolio/precache-manifest.ed96fb05fdfdeddad20e2a1dbec1685c.js",
-    "service-worker.js": "/my_portfolio/service-worker.js",
-    "static/css/main.7c4c3a22.chunk.css.map": "/my_portfolio/static/css/main.7c4c3a22.chunk.css.map",
-    "static/media/Header_logo.svg": "/my_portfolio/static/media/Header_logo.5d5d9eef.svg"
-  }
+    "main.css": "./static/css/main.8f2afc79.chunk.css",
+    "main.js": "./static/js/main.315de77d.chunk.js",
+    "main.js.map": "./static/js/main.315de77d.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.692de215.js",
+    "runtime-main.js.map": "./static/js/runtime-main.692de215.js.map",
+    "static/js/2.88e8dc4d.chunk.js": "./static/js/2.88e8dc4d.chunk.js",
+    "static/js/2.88e8dc4d.chunk.js.map": "./static/js/2.88e8dc4d.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.fd49735fc166eec4bedee6fc0dc501ee.js": "./precache-manifest.fd49735fc166eec4bedee6fc0dc501ee.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.8f2afc79.chunk.css.map": "./static/css/main.8f2afc79.chunk.css.map",
+    "static/js/2.88e8dc4d.chunk.js.LICENSE.txt": "./static/js/2.88e8dc4d.chunk.js.LICENSE.txt",
+    "static/media/Fortran.svg": "./static/media/Fortran.596be931.svg",
+    "static/media/git.svg": "./static/media/git.e7c6c73f.svg",
+    "static/media/github-octocat.svg": "./static/media/github-octocat.5903a1df.svg",
+    "static/media/gopher.svg": "./static/media/gopher.266d1cb0.svg",
+    "static/media/haskell.svg": "./static/media/haskell.89e1cae5.svg",
+    "static/media/html-5.svg": "./static/media/html-5.24845c5c.svg",
+    "static/media/javascript.svg": "./static/media/javascript.87711407.svg",
+    "static/media/lifeGamePython3.webm": "./static/media/lifeGamePython3.733a8e9d.webm",
+    "static/media/profile_icon.png": "./static/media/profile_icon.061fac63.png",
+    "static/media/python.svg": "./static/media/python.51c2eab2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.692de215.js",
+    "static/js/2.88e8dc4d.chunk.js",
+    "static/css/main.8f2afc79.chunk.css",
+    "static/js/main.315de77d.chunk.js"
+  ]
 }
