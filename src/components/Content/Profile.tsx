@@ -25,6 +25,7 @@ export const Profile = () => {
         avaterBox: {
             alignItems: "center",
             width: "20%",
+            height: "30vh",
             objectFit: "cover"
         },
         personalData: {
